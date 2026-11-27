@@ -1,0 +1,5 @@
+# CUDA 版 PyTorch 和带 Qwen3-VL 的 transformers 需要事先装好。
+# 不要用 pip 重装 torch，否则可能把 CUDA 版本换成 CPU 版本。
+diffusers==0.32.2
+accelerate==1.2.1
+sentencepiece==0.2.0
