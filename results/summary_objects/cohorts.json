@@ -1,0 +1,76 @@
+{
+  "clip_1": {
+    "metadata": {
+      "device": "cuda",
+      "metric": "raw cosine of normalized projected embeddings",
+      "model_path": "D:\\bonnie\\aigc\\models\\clip-vit-large-patch14",
+      "text_policy": "truncate to model maximum; It compared with Tt; I0 has no prompt",
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.6"
+    },
+    "samples": [
+      "single_1592079",
+      "single_1615",
+      "single_2315956",
+      "single_2316080",
+      "single_2320411",
+      "single_2326973",
+      "single_2353320",
+      "single_2380323",
+      "single_2382787",
+      "single_2394171",
+      "single_2403622",
+      "single_2409435",
+      "single_2411365",
+      "single_2415857",
+      "single_3102",
+      "single_3702",
+      "single_427",
+      "single_4973",
+      "single_497948",
+      "single_497952"
+    ]
+  },
+  "dino_1": {
+    "metadata": {
+      "box_threshold": 0.35,
+      "device": "cuda",
+      "model_path": "D:\\bonnie\\aigc\\models\\grounding-dino-base",
+      "query_policy": "one category per query",
+      "reference_categories": [
+        "man",
+        "window",
+        "tree",
+        "building",
+        "shirt"
+      ],
+      "scope": "five-category presence vs original CSV, not detector accuracy or instance matching",
+      "text_threshold": 0.25,
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.6",
+      "undefined_ratios": "null; F1 is zero when only one set is empty"
+    },
+    "samples": [
+      "single_1592079",
+      "single_1615",
+      "single_2315956",
+      "single_2316080",
+      "single_2320411",
+      "single_2326973",
+      "single_2353320",
+      "single_2380323",
+      "single_2382787",
+      "single_2394171",
+      "single_2403622",
+      "single_2409435",
+      "single_2411365",
+      "single_2415857",
+      "single_3102",
+      "single_3702",
+      "single_427",
+      "single_4973",
+      "single_497948",
+      "single_497952"
+    ]
+  }
+}
