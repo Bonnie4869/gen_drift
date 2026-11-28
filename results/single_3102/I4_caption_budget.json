@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Mass crowd gathers before neoclassical building with clock tower and green dome. Many wear red jackets. People face building, standing in dense formation. Bare trees and overcast sky frame scene.",
+  "final_caption": "Mass crowd gathers before neoclassical building with clock tower and green dome. Many wear red jackets. People face building, standing in dense formation. Bare trees and overcast sky frame scene.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 38,
+    "clip_g": 38,
+    "t5": 45
+  },
+  "after_tokens": {
+    "clip_l": 38,
+    "clip_g": 38,
+    "t5": 45
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

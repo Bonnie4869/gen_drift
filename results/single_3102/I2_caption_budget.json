@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Quinnicy MaarkeK building with columns and clock tower. Crowded crowd in red, blue, and black jackets. People facing building. Overcast sky. Stone architecture. Street lamps.",
+  "final_caption": "Quinnicy MaarkeK building with columns and clock tower. Crowded crowd in red, blue, and black jackets. People facing building. Overcast sky. Stone architecture. Street lamps.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 40,
+    "clip_g": 40,
+    "t5": 43
+  },
+  "after_tokens": {
+    "clip_l": 40,
+    "clip_g": 40,
+    "t5": 43
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

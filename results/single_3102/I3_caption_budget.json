@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Mass crowd gathers before classical building with columns and clock tower. Many wear red jackets. People face building, standing densely. Overcast sky. Trees and lampposts visible.",
+  "final_caption": "Mass crowd gathers before classical building with columns and clock tower. Many wear red jackets. People face building, standing densely. Overcast sky. Trees and lampposts visible.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 38,
+    "clip_g": 38,
+    "t5": 40
+  },
+  "after_tokens": {
+    "clip_l": 38,
+    "clip_g": 38,
+    "t5": 40
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

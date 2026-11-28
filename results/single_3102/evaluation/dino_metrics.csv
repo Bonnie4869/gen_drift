@@ -1,0 +1,7 @@
+﻿generation,image,detected_categories,retained_count,reference_count,detected_count,orr,category_precision_vs_original,category_recall_vs_original,category_f1_vs_original
+0,I0.jpg,building|man|tree|window,4,5,4,0.8,1.0,0.8,0.8888888888888888
+1,I1.png,building|man|window,3,5,3,0.6,1.0,0.6,0.75
+2,I2.png,building|man|window,3,5,3,0.6,1.0,0.6,0.75
+3,I3.png,building|man|tree|window,4,5,4,0.8,1.0,0.8,0.8888888888888888
+4,I4.png,building|man|tree|window,4,5,4,0.8,1.0,0.8,0.8888888888888888
+5,I5.png,building|man|tree|window,4,5,4,0.8,1.0,0.8,0.8888888888888888

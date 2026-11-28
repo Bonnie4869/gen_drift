@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "model_path": "D:\\bonnie\\aigc\\models\\grounding-dino-base",
+    "device": "cuda",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "reference_categories": [
+      "man",
+      "window",
+      "tree",
+      "building",
+      "shirt"
+    ],
+    "query_policy": "one category per query",
+    "scope": "five-category presence vs original CSV, not detector accuracy or instance matching",
+    "undefined_ratios": "null; F1 is zero when only one set is empty"
+  },
+  "rows": [
+    {
+      "generation": 0,
+      "image": "I0.jpg",
+      "detected_categories": "building|man|tree|window",
+      "retained_count": 4,
+      "reference_count": 5,
+      "detected_count": 4,
+      "orr": 0.8,
+      "category_precision_vs_original": 1.0,
+      "category_recall_vs_original": 0.8,
+      "category_f1_vs_original": 0.8888888888888888
+    },
+    {
+      "generation": 1,
+      "image": "I1.png",
+      "detected_categories": "building|man|window",
+      "retained_count": 3,
+      "reference_count": 5,
+      "detected_count": 3,
+      "orr": 0.6,
+      "category_precision_vs_original": 1.0,
+      "category_recall_vs_original": 0.6,
+      "category_f1_vs_original": 0.75
+    },
+    {
+      "generation": 2,
+      "image": "I2.png",
+      "detected_categories": "building|man|window",
+      "retained_count": 3,
+      "reference_count": 5,
+      "detected_count": 3,
+      "orr": 0.6,
+      "category_precision_vs_original": 1.0,
+      "category_recall_vs_original": 0.6,
+      "category_f1_vs_original": 0.75
+    },
+    {
+      "generation": 3,
+      "image": "I3.png",
+      "detected_categories": "building|man|tree|window",
+      "retained_count": 4,
+      "reference_count": 5,
+      "detected_count": 4,
+      "orr": 0.8,
+      "category_precision_vs_original": 1.0,
+      "category_recall_vs_original": 0.8,
+      "category_f1_vs_original": 0.8888888888888888
+    },
+    {
+      "generation": 4,
+      "image": "I4.png",
+      "detected_categories": "building|man|tree|window",
+      "retained_count": 4,
+      "reference_count": 5,
+      "detected_count": 4,
+      "orr": 0.8,
+      "category_precision_vs_original": 1.0,
+      "category_recall_vs_original": 0.8,
+      "category_f1_vs_original": 0.8888888888888888
+    },
+    {
+      "generation": 5,
+      "image": "I5.png",
+      "detected_categories": "building|man|tree|window",
+      "retained_count": 4,
+      "reference_count": 5,
+      "detected_count": 4,
+      "orr": 0.8,
+      "category_precision_vs_original": 1.0,
+      "category_recall_vs_original": 0.8,
+      "category_f1_vs_original": 0.8888888888888888
+    }
+  ]
+}

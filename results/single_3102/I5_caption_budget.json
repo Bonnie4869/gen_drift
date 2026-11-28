@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Mass crowd in red jackets gathers before grand building with green dome and clock. Many wear red hoodies. Bare trees flank the scene. Overcast sky.",
+  "final_caption": "Mass crowd in red jackets gathers before grand building with green dome and clock. Many wear red hoodies. Bare trees flank the scene. Overcast sky.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 31,
+    "clip_g": 31,
+    "t5": 36
+  },
+  "after_tokens": {
+    "clip_l": 31,
+    "clip_g": 31,
+    "t5": 36
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

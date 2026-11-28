@@ -1,0 +1,147 @@
+{
+  "stages": [
+    {
+      "stage": "caption",
+      "name": "T1.txt",
+      "source": "I0.jpg",
+      "seconds": 20.6,
+      "chars": 210
+    },
+    {
+      "height": 768,
+      "width": 768,
+      "steps": 28,
+      "guidance_scale": 7.0,
+      "clip_l_tokens": 41,
+      "clip_g_tokens": 41,
+      "t5_tokens": 47,
+      "stage": "diffuse",
+      "name": "I1.png",
+      "source": "T1.txt",
+      "seconds": 14.6,
+      "seed": 3102
+    },
+    {
+      "stage": "caption",
+      "name": "T2.txt",
+      "source": "I1.png",
+      "seconds": 19.7,
+      "chars": 184
+    },
+    {
+      "height": 768,
+      "width": 768,
+      "steps": 28,
+      "guidance_scale": 7.0,
+      "clip_l_tokens": 40,
+      "clip_g_tokens": 40,
+      "t5_tokens": 46,
+      "stage": "diffuse",
+      "name": "I2.png",
+      "source": "T2.txt",
+      "seconds": 14.3,
+      "seed": 3102
+    },
+    {
+      "stage": "caption",
+      "name": "T3.txt",
+      "source": "I2.png",
+      "seconds": 19.0,
+      "chars": 174
+    },
+    {
+      "height": 768,
+      "width": 768,
+      "steps": 28,
+      "guidance_scale": 7.0,
+      "clip_l_tokens": 40,
+      "clip_g_tokens": 40,
+      "t5_tokens": 43,
+      "stage": "diffuse",
+      "name": "I3.png",
+      "source": "T3.txt",
+      "seconds": 14.6,
+      "seed": 3102
+    },
+    {
+      "stage": "caption",
+      "name": "T4.txt",
+      "source": "I3.png",
+      "seconds": 20.9,
+      "chars": 180
+    },
+    {
+      "height": 768,
+      "width": 768,
+      "steps": 28,
+      "guidance_scale": 7.0,
+      "clip_l_tokens": 38,
+      "clip_g_tokens": 38,
+      "t5_tokens": 40,
+      "stage": "diffuse",
+      "name": "I4.png",
+      "source": "T4.txt",
+      "seconds": 14.2,
+      "seed": 3102
+    },
+    {
+      "stage": "caption",
+      "name": "T5.txt",
+      "source": "I4.png",
+      "seconds": 24.3,
+      "chars": 195
+    },
+    {
+      "height": 768,
+      "width": 768,
+      "steps": 28,
+      "guidance_scale": 7.0,
+      "clip_l_tokens": 38,
+      "clip_g_tokens": 38,
+      "t5_tokens": 45,
+      "stage": "diffuse",
+      "name": "I5.png",
+      "source": "T5.txt",
+      "seconds": 14.4,
+      "seed": 3102
+    },
+    {
+      "stage": "caption",
+      "name": "T6.txt",
+      "source": "I5.png",
+      "seconds": 18.7,
+      "chars": 147,
+      "used_for_diffusion": false
+    }
+  ],
+  "image_id": 3102,
+  "url": "https://cs.stanford.edu/people/rak248/VG_100K_2/3102.jpg",
+  "seed": 3102,
+  "ground_truth_not_used_in_prompts": {
+    "man": {
+      "present": 1,
+      "attribute_count": 0,
+      "attributes": ""
+    },
+    "window": {
+      "present": 1,
+      "attribute_count": 8,
+      "attributes": "4327215:glass;4327217:glass;4327220:glass;4327221:glass;4327224:glass;4327225:glass;4327228:glass;4327229:glass"
+    },
+    "tree": {
+      "present": 1,
+      "attribute_count": 2,
+      "attributes": "4327210:green;4548450:dark green colored"
+    },
+    "building": {
+      "present": 1,
+      "attribute_count": 2,
+      "attributes": "4548444:large columned;4548462:columned"
+    },
+    "shirt": {
+      "present": 1,
+      "attribute_count": 8,
+      "attributes": "4327162:pink;4327166:green;4327178:pink;4327185:green;4548453:white;4548474:pink;4548484:pink;4548494:plaid"
+    }
+  }
+}

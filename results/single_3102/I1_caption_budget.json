@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Quincy Market building with clock tower and columns. Crowded crowd in front. People in varied jackets, red, blue, gray. Street lamp with white globes. Cobblestone ground. Overcast sky.",
+  "final_caption": "Quincy Market building with clock tower and columns. Crowded crowd in front. People in varied jackets, red, blue, gray. Street lamp with white globes. Cobblestone ground. Overcast sky.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 40,
+    "clip_g": 40,
+    "t5": 46
+  },
+  "after_tokens": {
+    "clip_l": 40,
+    "clip_g": 40,
+    "t5": 46
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

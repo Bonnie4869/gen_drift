@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Quincy Market's stone facade with columns and gold lettering. Crowds gather on cobblestone. A tall clock tower rises behind. People wear varied casual clothes. Streetlamp with globe lights stands near entrance.",
+  "final_caption": "Quincy Market's stone facade with columns and gold lettering. Crowds gather on cobblestone. A tall clock tower rises behind. People wear varied casual clothes. Streetlamp with globe lights stands near entrance.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 41,
+    "clip_g": 41,
+    "t5": 47
+  },
+  "after_tokens": {
+    "clip_l": 41,
+    "clip_g": 41,
+    "t5": 47
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}
