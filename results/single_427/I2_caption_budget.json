@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "A man in black shorts and t-shirt runs past a white sedan. Behind him, a tree stands before a yellow building with arched doorways. Vibrant murals adorn walls, including a sunburst design. A green trash bin is visible.",
+  "final_caption": "A man in black shorts and t-shirt runs past a white sedan. Behind him, a tree stands before a yellow building with arched doorways. Vibrant murals adorn walls, including a sunburst design. A green trash bin is visible.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 52,
+    "clip_g": 52,
+    "t5": 63
+  },
+  "after_tokens": {
+    "clip_l": 52,
+    "clip_g": 52,
+    "t5": 63
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

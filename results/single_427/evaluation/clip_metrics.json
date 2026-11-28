@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "model_path": "D:\\bonnie\\aigc\\models\\clip-vit-large-patch14",
+    "device": "cuda",
+    "metric": "raw cosine of normalized projected embeddings",
+    "text_policy": "truncate to model maximum; It compared with Tt; I0 has no prompt"
+  },
+  "rows": [
+    {
+      "generation": 0,
+      "image": "I0.jpg",
+      "image_vs_original": 1.000000238418579,
+      "image_vs_previous": null,
+      "image_vs_prompt": null,
+      "prompt_file": null,
+      "prompt_tokens": null,
+      "text_limit": 77,
+      "text_truncated": null
+    },
+    {
+      "generation": 1,
+      "image": "I1.png",
+      "image_vs_original": 0.6526890993118286,
+      "image_vs_previous": 0.6526890993118286,
+      "image_vs_prompt": 0.2976436913013458,
+      "prompt_file": "T1.txt",
+      "prompt_tokens": 40,
+      "text_limit": 77,
+      "text_truncated": false
+    },
+    {
+      "generation": 2,
+      "image": "I2.png",
+      "image_vs_original": 0.6580493450164795,
+      "image_vs_previous": 0.8584764003753662,
+      "image_vs_prompt": 0.2739841639995575,
+      "prompt_file": "T2.txt",
+      "prompt_tokens": 43,
+      "text_limit": 77,
+      "text_truncated": false
+    },
+    {
+      "generation": 3,
+      "image": "I3.png",
+      "image_vs_original": 0.5169312953948975,
+      "image_vs_previous": 0.8008670806884766,
+      "image_vs_prompt": 0.21076039969921112,
+      "prompt_file": "T3.txt",
+      "prompt_tokens": 52,
+      "text_limit": 77,
+      "text_truncated": false
+    },
+    {
+      "generation": 4,
+      "image": "I4.png",
+      "image_vs_original": 0.46443894505500793,
+      "image_vs_previous": 0.8541406393051147,
+      "image_vs_prompt": 0.3019901216030121,
+      "prompt_file": "T4.txt",
+      "prompt_tokens": 49,
+      "text_limit": 77,
+      "text_truncated": false
+    },
+    {
+      "generation": 5,
+      "image": "I5.png",
+      "image_vs_original": 0.4743705093860626,
+      "image_vs_previous": 0.85045325756073,
+      "image_vs_prompt": 0.3148305416107178,
+      "prompt_file": "T5.txt",
+      "prompt_tokens": 38,
+      "text_limit": 77,
+      "text_truncated": false
+    }
+  ]
+}

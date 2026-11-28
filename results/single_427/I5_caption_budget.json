@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "White SUV parked beside yellow wall with rainbow wave mural. Man in black shorts and shirt runs past it. Tree overhead. Bright sunlight. Concrete ground.",
+  "final_caption": "White SUV parked beside yellow wall with rainbow wave mural. Man in black shorts and shirt runs past it. Tree overhead. Bright sunlight. Concrete ground.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 32,
+    "clip_g": 32,
+    "t5": 33
+  },
+  "after_tokens": {
+    "clip_l": 32,
+    "clip_g": 32,
+    "t5": 33
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

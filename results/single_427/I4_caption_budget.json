@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "A man in black shorts and shirt jogs past a white SUV. Behind, a yellow wall features a rainbow mural over waves. A tree and arched green door are visible.",
+  "final_caption": "A man in black shorts and shirt jogs past a white SUV. Behind, a yellow wall features a rainbow mural over waves. A tree and arched green door are visible.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 38,
+    "clip_g": 38,
+    "t5": 43
+  },
+  "after_tokens": {
+    "clip_l": 38,
+    "clip_g": 38,
+    "t5": 43
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

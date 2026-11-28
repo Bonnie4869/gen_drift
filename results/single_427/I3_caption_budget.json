@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "A man in black shorts and shirt runs past a white SUV. Behind, a yellow building has arched doorways and vibrant murals: blue waves, a rainbow, and a red-yellow sun. A tree stands beside the car.",
+  "final_caption": "A man in black shorts and shirt runs past a white SUV. Behind, a yellow building has arched doorways and vibrant murals: blue waves, a rainbow, and a red-yellow sun. A tree stands beside the car.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 49,
+    "clip_g": 49,
+    "t5": 56
+  },
+  "after_tokens": {
+    "clip_l": 49,
+    "clip_g": 49,
+    "t5": 56
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

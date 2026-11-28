@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "A man in black shorts and shirt runs across a street, passing a white sedan. Behind him, arched building entrances feature vibrant murals under a large green tree. A green trash bin stands nearby.",
+  "final_caption": "A man in black shorts and shirt runs across a street, passing a white sedan. Behind him, arched building entrances feature vibrant murals under a large green tree. A green trash bin stands nearby.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 43,
+    "clip_g": 43,
+    "t5": 47
+  },
+  "after_tokens": {
+    "clip_l": 43,
+    "clip_g": 43,
+    "t5": 47
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}
