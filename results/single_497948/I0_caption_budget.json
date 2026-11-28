@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Clock tower with gold numerals atop red-tiled roof. Gray building with ornate windows. Cars parked along street. Pedestrians walking. Red-roofed buildings. Overcast sky. Street lamps visible.",
+  "final_caption": "Clock tower with gold numerals atop red-tiled roof. Gray building with ornate windows. Cars parked along street. Pedestrians walking. Red-roofed buildings. Overcast sky. Street lamps visible.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 42,
+    "clip_g": 42,
+    "t5": 56
+  },
+  "after_tokens": {
+    "clip_l": 42,
+    "clip_g": 42,
+    "t5": 56
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

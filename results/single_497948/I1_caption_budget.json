@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Red SUV and silver sedan on street. Clock tower with red roof and \"OVO\" sign. Pedestrians walk. Buildings with red roofs. Overcast sky. Cars parked. People in dark coats. Street with traffic.",
+  "final_caption": "Red SUV and silver sedan on street. Clock tower with red roof and \"OVO\" sign. Pedestrians walk. Buildings with red roofs. Overcast sky. Cars parked. People in dark coats. Street with traffic.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 44,
+    "clip_g": 44,
+    "t5": 55
+  },
+  "after_tokens": {
+    "clip_l": 44,
+    "clip_g": 44,
+    "t5": 55
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

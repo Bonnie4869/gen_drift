@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Red Range Rover SUV parked on wet street. Tall clock tower with red roof stands center. Pedestrian in black coat walks right. Silver Range Rover behind. Buildings with red roofs flank sides. Overcast sky.",
+  "final_caption": "Red Range Rover SUV parked on wet street. Tall clock tower with red roof stands center. Pedestrian in black coat walks right. Silver Range Rover behind. Buildings with red roofs flank sides. Overcast sky.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 42,
+    "clip_g": 42,
+    "t5": 49
+  },
+  "after_tokens": {
+    "clip_l": 42,
+    "clip_g": 42,
+    "t5": 49
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

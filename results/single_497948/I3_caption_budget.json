@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Red Range Rover with \"Mecceco\" badge parked on wet street. Man in dark coat walks beside it. Clock tower with red roof stands behind. Silver car follows. Historic buildings line street.",
+  "final_caption": "Red Range Rover with \"Mecceco\" badge parked on wet street. Man in dark coat walks beside it. Clock tower with red roof stands behind. Silver car follows. Historic buildings line street.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 43,
+    "clip_g": 43,
+    "t5": 46
+  },
+  "after_tokens": {
+    "clip_l": 43,
+    "clip_g": 43,
+    "t5": 46
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Red Range Rover with \"MEC CERI\" plate and \"RANNE DVEVVV\" emblem. Man in black coat walks beside it. Clock tower looms behind. Wet street reflects vehicles. Buildings line both sides.",
+  "final_caption": "Red Range Rover with \"MEC CERI\" plate and \"RANNE DVEVVV\" emblem. Man in black coat walks beside it. Clock tower looms behind. Wet street reflects vehicles. Buildings line both sides.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 46,
+    "clip_g": 46,
+    "t5": 53
+  },
+  "after_tokens": {
+    "clip_l": 46,
+    "clip_g": 46,
+    "t5": 53
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}

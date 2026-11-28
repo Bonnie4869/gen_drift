@@ -1,0 +1,102 @@
+[07:10:14] sample image_id=497948 index=0
+[07:10:18] loading Qwen3-VL-4B-Instruct
+[07:10:23] Qwen ready in 4.8s
+[07:10:36] caption done in 13.7s, 191 chars
+[07:10:37] prompt budget: {'clip_l': 42, 'clip_g': 42, 't5': 56}; shortened=False
+[07:10:37] wrote T1.txt
+[07:10:38] loading SD3 text encoders
+[07:10:38] text encoders ready in 0.7s
+[07:10:38] prompt tokens CLIP-L=42 CLIP-G=42 T5=56 (CLIP cuts at 77, T5 cuts at 256)
+[07:10:41] encoding T5 with one block on GPU at a time
+[07:10:47] text encoded in 8.7s
+[07:10:47] loading SD3 transformer for 768px
+[07:10:51] transformer ready in 3.8s
+[07:10:51] denoise step 1/28
+[07:10:52] denoise step 8/28
+[07:10:53] denoise step 15/28
+[07:10:54] denoise step 22/28
+[07:10:55] denoise step 28/28
+[07:10:55] image ready in 4.4s
+[07:10:56] wrote I1.png
+[07:10:56] loading Qwen3-VL-4B-Instruct
+[07:10:59] Qwen ready in 3.0s
+[07:11:18] caption done in 19.6s, 191 chars
+[07:11:19] prompt budget: {'clip_l': 44, 'clip_g': 44, 't5': 55}; shortened=False
+[07:11:19] wrote T2.txt
+[07:11:19] loading SD3 text encoders
+[07:11:19] text encoders ready in 0.5s
+[07:11:19] prompt tokens CLIP-L=44 CLIP-G=44 T5=55 (CLIP cuts at 77, T5 cuts at 256)
+[07:11:21] encoding T5 with one block on GPU at a time
+[07:11:25] text encoded in 5.3s
+[07:11:25] loading SD3 transformer for 768px
+[07:11:27] transformer ready in 2.2s
+[07:11:27] denoise step 1/28
+[07:11:28] denoise step 8/28
+[07:11:30] denoise step 15/28
+[07:11:31] denoise step 22/28
+[07:11:32] denoise step 28/28
+[07:11:32] image ready in 5.2s
+[07:11:33] wrote I2.png
+[07:11:33] loading Qwen3-VL-4B-Instruct
+[07:11:36] Qwen ready in 3.1s
+[07:11:59] caption done in 23.2s, 204 chars
+[07:12:00] prompt budget: {'clip_l': 42, 'clip_g': 42, 't5': 49}; shortened=False
+[07:12:00] wrote T3.txt
+[07:12:00] loading SD3 text encoders
+[07:12:00] text encoders ready in 0.6s
+[07:12:00] prompt tokens CLIP-L=42 CLIP-G=42 T5=49 (CLIP cuts at 77, T5 cuts at 256)
+[07:12:02] encoding T5 with one block on GPU at a time
+[07:12:07] text encoded in 6.7s
+[07:12:07] loading SD3 transformer for 768px
+[07:12:09] transformer ready in 2.2s
+[07:12:10] denoise step 1/28
+[07:12:11] denoise step 8/28
+[07:12:12] denoise step 15/28
+[07:12:13] denoise step 22/28
+[07:12:15] denoise step 28/28
+[07:12:15] image ready in 5.3s
+[07:12:15] wrote I3.png
+[07:12:15] loading Qwen3-VL-4B-Instruct
+[07:12:18] Qwen ready in 3.3s
+[07:12:38] caption done in 19.4s, 185 chars
+[07:12:39] prompt budget: {'clip_l': 43, 'clip_g': 43, 't5': 46}; shortened=False
+[07:12:39] wrote T4.txt
+[07:12:39] loading SD3 text encoders
+[07:12:39] text encoders ready in 0.6s
+[07:12:39] prompt tokens CLIP-L=43 CLIP-G=43 T5=46 (CLIP cuts at 77, T5 cuts at 256)
+[07:12:41] encoding T5 with one block on GPU at a time
+[07:12:46] text encoded in 6.9s
+[07:12:46] loading SD3 transformer for 768px
+[07:12:49] transformer ready in 2.6s
+[07:12:49] denoise step 1/28
+[07:12:50] denoise step 8/28
+[07:12:51] denoise step 15/28
+[07:12:53] denoise step 22/28
+[07:12:54] denoise step 28/28
+[07:12:54] image ready in 5.0s
+[07:12:54] wrote I4.png
+[07:12:54] loading Qwen3-VL-4B-Instruct
+[07:12:58] Qwen ready in 3.7s
+[07:13:17] caption done in 18.8s, 201 chars
+[07:13:18] prompt budget: {'clip_l': 43, 'clip_g': 43, 't5': 51}; shortened=False
+[07:13:18] wrote T5.txt
+[07:13:18] loading SD3 text encoders
+[07:13:18] text encoders ready in 0.6s
+[07:13:18] prompt tokens CLIP-L=43 CLIP-G=43 T5=51 (CLIP cuts at 77, T5 cuts at 256)
+[07:13:20] encoding T5 with one block on GPU at a time
+[07:13:25] text encoded in 7.0s
+[07:13:26] loading SD3 transformer for 768px
+[07:13:28] transformer ready in 2.4s
+[07:13:28] denoise step 1/28
+[07:13:29] denoise step 8/28
+[07:13:29] denoise step 15/28
+[07:13:30] denoise step 22/28
+[07:13:31] denoise step 28/28
+[07:13:31] image ready in 3.0s
+[07:13:31] wrote I5.png
+[07:13:31] loading Qwen3-VL-4B-Instruct
+[07:13:35] Qwen ready in 3.7s
+[07:13:56] caption done in 20.9s, 182 chars
+[07:13:57] prompt budget: {'clip_l': 46, 'clip_g': 46, 't5': 53}; shortened=False
+[07:13:57] wrote T6.txt
+[07:13:57] finished D:\bonnie\aigc\gendrift\runs_concise\single_497948

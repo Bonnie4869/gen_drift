@@ -1,0 +1,22 @@
+{
+  "strategy": "concise_priority_v1",
+  "raw_caption": "Red Range Rover with license plate MEC CECI parked on wet street. Man in black coat walks beside it. Clock tower looms in background. Buildings line both sides. Rain-slicked pavement reflects vehicles.",
+  "final_caption": "Red Range Rover with license plate MEC CECI parked on wet street. Man in black coat walks beside it. Clock tower looms in background. Buildings line both sides. Rain-slicked pavement reflects vehicles.",
+  "shortened": false,
+  "limits": {
+    "clip_l": 77,
+    "clip_g": 77,
+    "t5": 256
+  },
+  "before_tokens": {
+    "clip_l": 43,
+    "clip_g": 43,
+    "t5": 51
+  },
+  "after_tokens": {
+    "clip_l": 43,
+    "clip_g": 43,
+    "t5": 51
+  },
+  "policy": "priority prompt; remove trailing words if needed; prefer full sentence"
+}
